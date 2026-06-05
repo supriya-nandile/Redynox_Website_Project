@@ -8,52 +8,70 @@
 </head>
 <body>
 
-<nav>
-    <h2>Redynox Project</h2>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <nav>
+        <h2>Redynox Project</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<section id="home">
-    <h1>Welcome to My Website</h1>
-    <p>Responsive Web Development Project</p>
-</section>
+    <section id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Responsive Web Development Project for Redynox Internship</p>
+    </section>
 
-<section id="about">
-    <h2>About</h2>
-    <p>This project demonstrates HTML, CSS, JavaScript, responsive design, and form validation.</p>
-</section>
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            This project demonstrates HTML, CSS, JavaScript,
+            responsive design, semantic HTML elements,
+            and form validation techniques.
+        </p>
+    </section>
 
-<section id="services">
-    <h2>Services</h2>
-    <div>
-        <h3>Web Design</h3>
-        <p>Responsive and modern websites.</p>
-    </div>
-    <div>
-        <h3>Frontend Development</h3>
-        <p>Interactive user interfaces using JavaScript.</p>
-    </div>
-</section>
+    <section id="services">
+        <h2>Services</h2>
 
-<section id="contact">
-    <h2>Contact Us</h2>
+        <div class="service-card">
+            <h3>Web Design</h3>
+            <p>Modern and responsive website design solutions.</p>
+        </div>
 
-    <form id="contactForm">
-        <input type="text" id="name" placeholder="Enter Name" required>
-        <input type="email" id="email" placeholder="Enter Email" required>
-        <textarea id="message" placeholder="Enter Message" required></textarea>
-        <button type="submit">Submit</button>
-    </form>
+        <div class="service-card">
+            <h3>Frontend Development</h3>
+            <p>Interactive user interfaces using HTML, CSS, and JavaScript.</p>
+        </div>
 
-    <div id="output"></div>
-</section>
+        <div class="service-card">
+            <h3>Responsive Design</h3>
+            <p>Websites optimized for desktop, tablet, and mobile devices.</p>
+        </div>
+    </section>
 
-<script src="script.js"></script>
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+
+            <textarea id="message" rows="5" placeholder="Enter Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="output"></div>
+    </section>
+
+    <footer>
+        <p>© 2026 Redynox Internship Project | Created by Supriya Nandile</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
