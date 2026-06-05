@@ -37,7 +37,6 @@ nav ul li{
 nav ul li a{
     color:white;
     text-decoration:none;
-    transition:0.3s;
 }
 
 nav ul li a:hover{
@@ -61,35 +60,34 @@ section{
 
 #home h1{
     font-size:3rem;
-    margin-bottom:15px;
 }
 
 #home p{
-    font-size:1.4rem;
+    margin-top:15px;
+    font-size:1.2rem;
 }
 
 #about{
     background:#f5f5f5;
+    padding:100px 40px;
 }
 
 #services{
     background:white;
+    padding:100px 40px;
 }
 
 .service-card{
     background:#f4f4f4;
     padding:20px;
-    margin:15px 0;
+    margin:20px 0;
     border-radius:10px;
-    transition:0.3s;
-}
-
-.service-card:hover{
-    transform:translateY(-5px);
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
 #contact{
     background:#f5f5f5;
+    padding:100px 40px;
 }
 
 form{
@@ -113,7 +111,6 @@ button{
     background:#222;
     color:white;
     cursor:pointer;
-    transition:0.3s;
 }
 
 button:hover{
@@ -138,7 +135,6 @@ footer{
 
     nav{
         flex-direction:column;
-        text-align:center;
     }
 
     nav ul{
@@ -153,10 +149,6 @@ footer{
 
     #home h1{
         font-size:2rem;
-    }
-
-    #home p{
-        font-size:1rem;
     }
 
     section{
